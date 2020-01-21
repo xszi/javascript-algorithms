@@ -1,0 +1,1 @@
+map, forEach, filter, reduce, flat
