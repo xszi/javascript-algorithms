@@ -1,8 +1,19 @@
 let arr = [1, 3, 2, 3, 3, 5]
 
+let arr3 = [{
+        id: 1,
+        name: 'waltz'
+    },{
+        id: 2,
+        name: 'ct'
+    }]
 // map 
-let list1 = arr.map(item => {
-    return item * 2
+let list1 = arr3.map(item => {
+    // return special structral data
+    return {
+        value: item.id,
+        label: `${item.name}`
+    }
 })
 
 // filter
@@ -23,7 +34,7 @@ let list4 = arr.reduce((pre, next) => {
     return pre
 }, [])
 
-// console.log(list1)
+console.log(list1)
 
 // console.log(list2)
 
@@ -100,9 +111,9 @@ var student = {
         school: 'XMU'
     }
 }
-for (let index in student) {
-    console.log(student[index])
-} // 正常遍历
-for (var value of student) {
-    console.log(value)
-} // 报错
+// for (let index in student) {
+//     console.log(student[index])
+// } // 正常遍历
+// for (var value of student) {
+//     console.log(value)
+// } // 报错
