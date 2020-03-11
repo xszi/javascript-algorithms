@@ -16,6 +16,11 @@ let list1 = arr3.map(item => {
     }
 })
 
+// use map for de-duplication, it's cool
+function unique (arr) {
+    const res = new Map()
+    return arr.filter((item) => !res.has(item.id) && res.set(item.id, 1))
+}
 // filter
 let list2 = arr.filter(item => {
     return item > 2
