@@ -122,3 +122,7 @@ var student = {
 // for (var value of student) {
 //     console.log(value)
 // } // 报错
+
+var str = '深入浅出node.js'
+var buf = new Buffer(str, 'utf-8')
+console.log(buf, '^0^^0^^0^')
