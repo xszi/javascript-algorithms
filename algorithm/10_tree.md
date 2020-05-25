@@ -1,4 +1,4 @@
-### 二叉树
+### 二叉树先序遍历
 
 - 递归实现
 
@@ -40,6 +40,46 @@ var preorderTraversal = (root) => {
         if(curNode.left !== null) {
             stack.push(curNode.left)
         }
+    }
+    return list
+}
+```
+
+### 二叉树中序遍历
+
+- 递归实现
+
+```js
+var inorderTraversal = (root) => {
+    let result = []
+    var inorderTraversal = (node) => {
+        if(node) {
+            inorderTraversal(node.left)
+            result.push(node.val)
+            inorderTraversal(node.right)
+        }
+    }
+    inorderTraversal(root)
+    return result
+}
+```
+
+- 迭代实现
+
+```js
+var inorderTraversal = function(root) {
+    let list = []
+    let stack = []
+    let node = root
+    while(stack.length || node) {
+        if(node) {
+            stack.push(node)
+            node = node.left
+            continue
+        }
+        node = stack.pop()
+        list.push(node.val)
+        node = node.right
     }
     return list
 }
