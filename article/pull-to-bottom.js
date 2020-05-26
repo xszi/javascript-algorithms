@@ -51,11 +51,11 @@ window.onscroll = function(){
 　　　　alert("you are in the bottom!");
 　　}
     // 也可以滚动里底部某一个阀值距离开始加载操作
-    const THRESHOLD = 50
-    const toBottonDistance = getScrollHeight() - (getScrollTop() + getWindowHeight())
-    if (toBottonDistance < THRESHOLD) {
-        console.log("开始加载操作")
-    }
+    // const THRESHOLD = 50
+    // const toBottonDistance = getScrollHeight() - (getScrollTop() + getWindowHeight())
+    // if (toBottonDistance < THRESHOLD) {
+    //     console.log("开始加载操作")
+    // }
 };
 
 
