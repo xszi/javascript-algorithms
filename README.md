@@ -48,3 +48,6 @@
     
     js算法
 
+npm install @vue/cli
+vue create -p dcloud/uni-preset-vue uni-program
+选择 ts 默认模板
