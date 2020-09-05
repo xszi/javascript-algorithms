@@ -5,7 +5,7 @@
 ```js
 var preorderTraversal = (root) => {
     let result = []
-    ver preOrderTraverseNode = (node) => {
+    var preOrderTraverseNode = (node) => {
         if(node) {
             // 先根节点
             result.push(node.val)

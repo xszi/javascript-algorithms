@@ -9,3 +9,5 @@ function letslazyload (dom) {
 const imgUrl = "<img src='https://sponsor-static.segmentfault.com/21f414f9b4cd660c67d8e3051abb8afb.png' />"
 
 console.log(letslazyload(imgUrl))
+
+
