@@ -4,7 +4,7 @@ const preorderTraversal = (root) =>{
     const preOrderTraverseNode = (node) => {
         if (node) {
             // 根节点
-            result.push(node)
+            result.push(node.value)
             // 左节点
             preOrderTraverseNode(node.left)
             // 右节点
