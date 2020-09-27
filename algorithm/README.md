@@ -30,7 +30,10 @@
 
 ## JS编程题
 - [阿里异步串行编程题：按照以下要求，实现 createFlow 函数](https://github.com/xszi/fe-interview/issues/1)
+- [模拟实现一个 localStorage](https://github.com/xszi/fe-interview/issues/2)
+- [翻转字符串里的单词](https://github.com/xszi/fe-interview/issues/3)
 ## 手写源码
+
 
 
 
