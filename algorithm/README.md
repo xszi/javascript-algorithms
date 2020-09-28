@@ -22,13 +22,13 @@
     |  时间   | 主题  |
     |  ----  | ----  |
     | 2020.10.07 ~ 2020.10.31  | 二叉树 |
-    | 单元格  | 单元格 |
-    | 单元格  | 单元格 |
-    | 单元格  | 单元格 |
-    | 单元格  | 单元格 |
-    | 单元格  | 单元格 |
-    | 单元格  | 单元格 |
-    | 单元格  | 单元格 |
+    | /  | / |
+    | /  | / |
+    | /  | / |
+    | /  | / |
+    | /  | / |
+    | /  | / |
+    | /  | / |
 
 
 ### 数组
@@ -47,10 +47,10 @@
 
 ### 二叉树
 
-[树和二叉树知识小结](https://github.com/xszi/fe-interview/issues/7)
-[二叉树的前序遍历](https://github.com/xszi/fe-interview/issues/4)
-[二叉树的中序遍历](https://github.com/xszi/fe-interview/issues/5)
-[二叉树的后序遍历](https://github.com/xszi/fe-interview/issues/6)
+- [树和二叉树知识小结](https://github.com/xszi/fe-interview/issues/7)
+- [二叉树的前序遍历](https://github.com/xszi/fe-interview/issues/4)
+- [二叉树的中序遍历](https://github.com/xszi/fe-interview/issues/5)
+- [二叉树的后序遍历](https://github.com/xszi/fe-interview/issues/6)
 
 ### 图
 
