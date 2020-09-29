@@ -21,7 +21,7 @@
 4. 计划表
     |  时间   | 主题  |
     |  ----  | ----  |
-    | 2020.10.07 ~ 2020.10.31  | 二叉树 |
+    | 2020.10.07 ~ 2020.10.31  | 树和二叉树 |
     | / / | / / |
     | / / | / / |
     | / / | / / |
@@ -48,9 +48,11 @@
 ### 二叉树
 
 - [树和二叉树知识小结](https://github.com/xszi/fe-interview/issues/7)
+- [二叉搜索树（BST）](https://github.com/xszi/fe-interview/issues/9)
 - [二叉树的前序遍历](https://github.com/xszi/fe-interview/issues/4)
 - [二叉树的中序遍历](https://github.com/xszi/fe-interview/issues/5)
 - [二叉树的后序遍历](https://github.com/xszi/fe-interview/issues/6)
+- [计算完全二叉树的节点个数](https://github.com/xszi/fe-interview/issues/8)
 
 ### 图
 
