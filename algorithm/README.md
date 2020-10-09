@@ -53,8 +53,9 @@
 - [二叉树的前序遍历](https://github.com/xszi/fe-interview/issues/4)
 - [二叉树的中序遍历](https://github.com/xszi/fe-interview/issues/5)
 - [二叉树的后序遍历](https://github.com/xszi/fe-interview/issues/6)
+- [二叉树的层序遍历](https://github.com/xszi/fe-interview/issues/11)
+- [二叉树的层次遍历](https://github.com/xszi/fe-interview/issues/12)
 - [计算完全二叉树的节点个数](https://github.com/xszi/fe-interview/issues/8)
-
 ### 图
 
 ### 排序算法
