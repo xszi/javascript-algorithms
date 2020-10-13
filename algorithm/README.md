@@ -45,7 +45,7 @@
 
 ### 哈希表
 
-### 二叉树
+### 二叉树12
 
 - [树和二叉树知识小结](https://github.com/xszi/fe-interview/issues/7)
 - [二叉搜索树（BST）](https://github.com/xszi/fe-interview/issues/9)
