@@ -25,7 +25,7 @@ const postorderTraversal = (root) => {
     while (stack.length) {
         const curNode = stack.pop()
         // 根左右=> 右左根
-        list.unshift(curNode.value)
+        result.unshift(curNode.value)
 
         // 先进栈左子树后右子树
         // 所以右子树先出栈

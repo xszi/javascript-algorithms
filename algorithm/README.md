@@ -56,6 +56,7 @@
 - [二叉树的层序遍历](https://github.com/xszi/fe-interview/issues/11)
 - [二叉树的层次遍历](https://github.com/xszi/fe-interview/issues/12)
 - [计算完全二叉树的节点个数](https://github.com/xszi/fe-interview/issues/8)
+- [从前序与中序遍历序列构造二叉树](https://github.com/xszi/fe-interview/issues/13)
 ### 图
 
 ### 排序算法
