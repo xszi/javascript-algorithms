@@ -57,7 +57,7 @@
 - [二叉树的层次遍历](https://github.com/xszi/fe-interview/issues/12)
 - [计算完全二叉树的节点个数](https://github.com/xszi/fe-interview/issues/8)
 - [从前序与中序遍历序列构造二叉树](https://github.com/xszi/fe-interview/issues/13)
-- [二叉树的最大深度 ](https://github.com/xszi/fe-interview/issues/14)
+- [二叉树的最大深度](https://github.com/xszi/fe-interview/issues/14)
 - [二叉树的最近公共祖先](https://github.com/xszi/fe-interview/issues/15)
 - [平衡二叉树判断](https://github.com/xszi/fe-interview/issues/16)
 ### 图
