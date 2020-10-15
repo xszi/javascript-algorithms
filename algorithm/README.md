@@ -21,8 +21,8 @@
 4. 计划表
     |  时间   | 主题  |
     |  ----  | ----  |
-    | 2020.10.07 ~ 2020.10.31  | 树和二叉树 |
-    | / / | / / |
+    | 2020.10.07 ~ 2020.10.16  | 树和二叉树 |
+    | 2020.10.19 ~ 2020.11.08 | 数组 |
     | / / | / / |
     | / / | / / |
     | / / | / / |
@@ -39,13 +39,13 @@
 
 ### 栈
 
-### 堆
-
 ### 队列
+
+### 堆
 
 ### 哈希表
 
-### 二叉树12
+### 二叉树
 
 - [树和二叉树知识小结](https://github.com/xszi/fe-interview/issues/7)
 - [二叉搜索树（BST）](https://github.com/xszi/fe-interview/issues/9)
@@ -60,6 +60,10 @@
 - [二叉树的最大深度](https://github.com/xszi/fe-interview/issues/14)
 - [二叉树的最近公共祖先](https://github.com/xszi/fe-interview/issues/15)
 - [平衡二叉树判断](https://github.com/xszi/fe-interview/issues/16)
+- [路径总和](https://github.com/xszi/fe-interview/issues/17)
+- [对称二叉树](https://github.com/xszi/fe-interview/issues/18)
+- [给定一个二叉树, 找到该树中两个指定节点间的最短距离](https://github.com/xszi/fe-interview/issues/19)
+- [二叉搜索树中第K小的元素](https://github.com/xszi/fe-interview/issues/20)
 ### 图
 
 ### 排序算法
