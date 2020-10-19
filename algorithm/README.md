@@ -32,6 +32,8 @@
 
 
 ### 数组
+- [数组知识小结](https://github.com/xszi/fe-interview/issues/21)
+- [合并两个有序数组](https://github.com/xszi/fe-interview/issues/22)
 
 ### 链表
 
