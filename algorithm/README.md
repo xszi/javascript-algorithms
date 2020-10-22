@@ -34,7 +34,8 @@
 ### 数组
 - [数组方法](https://github.com/xszi/fe-interview/issues/21)
 - [合并两个有序数组](https://github.com/xszi/fe-interview/issues/22)
-
+- [两数之和](https://github.com/xszi/fe-interview/issues/23)
+- [三数之和](https://github.com/xszi/fe-interview/issues/24)
 ### 链表
 
 ### 字符串
