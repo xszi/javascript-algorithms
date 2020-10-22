@@ -18,8 +18,8 @@ const threeSum = (nums) => {
         // 去重
         if (i > 0 && nums[i] ===  nums[i-1]) continue
         // 使用快慢指针夹逼紧凑
-        const second = i + 1 // 第二项
-        const last = nums.length - 1 // 最后一项
+        let second = i + 1 // 第二项
+        let last = nums.length - 1 // 最后一项
         // 临界条件 最后项索引小于第二项索引
         while (second < last) {
             const sum = nums[i] + nums[second] + nums[last]
