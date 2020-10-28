@@ -36,6 +36,8 @@
 - [合并两个有序数组](https://github.com/xszi/fe-interview/issues/22)
 - [两数之和](https://github.com/xszi/fe-interview/issues/23)
 - [三数之和](https://github.com/xszi/fe-interview/issues/24)
+- [数组扁平化·去重·排序](https://github.com/xszi/fe-interview/issues/25)
+- [数组交集](https://github.com/xszi/fe-interview/issues/26)
 ### 链表
 
 ### 字符串
