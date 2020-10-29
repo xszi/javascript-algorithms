@@ -22,9 +22,9 @@
     |  时间   | 主题  |
     |  ----  | ----  |
     | 2020.10.07 ~ 2020.10.16  | 树和二叉树 |
-    | 2020.10.19 ~ 2020.11.08 | 数组 |
-    | / / | / / |
-    | / / | / / |
+    | 2020.10.19 ~ 2020.10.31 | 数组 |
+    | 2020.11.01 ~ 2020.11.10 | 栈 |
+    | 2020.11.11 ~ 2020.11.15 | 队列 |
     | / / | / / |
     | / / | / / |
     | / / | / / |
@@ -32,7 +32,7 @@
 
 
 ### 数组
-- [数组方法](https://github.com/xszi/fe-interview/issues/21)
+- [数组方法小结](https://github.com/xszi/fe-interview/issues/21)
 - [合并两个有序数组](https://github.com/xszi/fe-interview/issues/22)
 - [两数之和](https://github.com/xszi/fe-interview/issues/23)
 - [三数之和](https://github.com/xszi/fe-interview/issues/24)
@@ -45,7 +45,8 @@
 ### 字符串
 
 ### 栈
-
+- [栈知识小结](https://github.com/xszi/fe-interview/issues/29)
+- [最小栈（包含getMin函数的栈）](https://github.com/xszi/fe-interview/issues/30)
 ### 队列
 
 ### 堆
