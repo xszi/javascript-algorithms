@@ -38,6 +38,8 @@
 - [三数之和](https://github.com/xszi/fe-interview/issues/24)
 - [数组扁平化·去重·排序](https://github.com/xszi/fe-interview/issues/25)
 - [数组交集](https://github.com/xszi/fe-interview/issues/26)
+- [LRU 缓存机制](https://github.com/xszi/fe-interview/issues/27)
+- [编写一个函数计算多个数组的交集](https://github.com/xszi/fe-interview/issues/28)
 ### 链表
 
 ### 字符串
