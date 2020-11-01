@@ -47,6 +47,7 @@
 ### 栈
 - [栈知识小结](https://github.com/xszi/fe-interview/issues/29)
 - [最小栈（包含getMin函数的栈）](https://github.com/xszi/fe-interview/issues/30)
+- [有效的括号](https://github.com/xszi/fe-interview/issues/32)
 ### 队列
 - [队列知识小结](https://github.com/xszi/fe-interview/issues/31)
 
