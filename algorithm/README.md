@@ -40,6 +40,7 @@
 - [数组交集](https://github.com/xszi/fe-interview/issues/26)
 - [LRU 缓存机制](https://github.com/xszi/fe-interview/issues/27)
 - [编写一个函数计算多个数组的交集](https://github.com/xszi/fe-interview/issues/28)
+- [找出第N小的数字](https://github.com/xszi/fe-interview/issues/34)
 ### 链表
 
 ### 字符串
@@ -48,6 +49,7 @@
 - [栈知识小结](https://github.com/xszi/fe-interview/issues/29)
 - [最小栈（包含getMin函数的栈）](https://github.com/xszi/fe-interview/issues/30)
 - [有效的括号](https://github.com/xszi/fe-interview/issues/32)
+- [删除字符串中的所有相邻重复项](https://github.com/xszi/fe-interview/issues/36)
 ### 队列
 - [队列知识小结](https://github.com/xszi/fe-interview/issues/31)
 
@@ -90,6 +92,7 @@
 - [阿里异步串行编程题：按照以下要求，实现 createFlow 函数](https://github.com/xszi/fe-interview/issues/1)
 - [模拟实现一个 localStorage](https://github.com/xszi/fe-interview/issues/2)
 - [翻转字符串里的单词](https://github.com/xszi/fe-interview/issues/3)
+- [poll函数](https://github.com/xszi/fe-interview/issues/35)
 ## 手写源码
 
 
