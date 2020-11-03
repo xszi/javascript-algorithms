@@ -50,6 +50,8 @@
 - [最小栈（包含getMin函数的栈）](https://github.com/xszi/fe-interview/issues/30)
 - [有效的括号](https://github.com/xszi/fe-interview/issues/32)
 - [删除字符串中的所有相邻重复项](https://github.com/xszi/fe-interview/issues/36)
+- [删除字符串中的所有相邻重复项 II](https://github.com/xszi/fe-interview/issues/37)
+- [删除字符串中出现次数 >= 2 次的相邻字符](https://github.com/xszi/fe-interview/issues/38)
 ### 队列
 - [队列知识小结](https://github.com/xszi/fe-interview/issues/31)
 
