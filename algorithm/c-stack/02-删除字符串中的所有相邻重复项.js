@@ -71,17 +71,17 @@ const removeDuplicatesTwoMore = (s) => {
 }
 
 function removeDuplicatesTwoMore (s) {
-    let stack = []
+    let stack = [] // Space: O(n)
     let i = 0
     let top
     let next
-    while (i < s.length) {
+    while (i < s.length) { // Time: O(n)
         top = stack[stack.length - 1]
         next = s[i]
         if (next === top) {
             // 如果相等，则有连续相同的字符
             // 需要把上一个出栈
-            // 指针往后移，直到字符与之前该字符不相等
+            // 指针往后移，直到字符与该字符不相等
             stack.pop()
             while (s[i] === top ) i += 1
         } else {
