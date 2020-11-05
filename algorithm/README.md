@@ -54,7 +54,8 @@
 - [删除字符串中出现次数 >= 2 次的相邻字符](https://github.com/xszi/fe-interview/issues/38)
 ### 队列
 - [队列知识小结](https://github.com/xszi/fe-interview/issues/31)
-
+- [用两个栈实现队列](https://github.com/xszi/fe-interview/issues/39)
+- [滑动窗口最大值问题](https://github.com/xszi/fe-interview/issues/40)
 ### 堆
 
 ### 哈希表
