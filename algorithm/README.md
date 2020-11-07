@@ -56,6 +56,8 @@
 - [队列知识小结](https://github.com/xszi/fe-interview/issues/31)
 - [用两个栈实现队列](https://github.com/xszi/fe-interview/issues/39)
 - [滑动窗口最大值问题](https://github.com/xszi/fe-interview/issues/40)
+- [翻转字符串里的单词](https://github.com/xszi/fe-interview/issues/41)
+- [无重复字符的最长子串](https://github.com/xszi/fe-interview/issues/42)
 ### 堆
 
 ### 哈希表
