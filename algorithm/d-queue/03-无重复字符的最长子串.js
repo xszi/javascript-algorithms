@@ -18,32 +18,32 @@ const s = 'bbbbb'
 // }
 
 // 数组API维护数组
-// const maxLength = (s) => {
-//     let length = 0
-//     let arr = []
-//     for (let i = 0; i < s.length; i++) {
-//         let index = arr.indexOf(s[i])
-//         if (index !== -1) {
-//             arr.splice(0, index+1)
-//         }
-//         arr.push(s[i])
-//         length = Math.max(arr.length, length)
-//     }
-//     return length
-// }
+const maxLength = (s) => {
+    let length = 0
+    let arr = []
+    for (let i = 0; i < s.length; i++) {
+        let index = arr.indexOf(s[i])
+        if (index !== -1) {
+            arr.splice(0, index+1)
+        }
+        arr.push(s[i])
+        length = Math.max(arr.length, length)
+    }
+    return length
+}
 
 // 维护下标
-// const maxLength = (s) => {
-//     let index = 0, length = 0
-//     for (let i = 0, j = 0; j < s.length; j++) {
-//         index = s.substring(i, j).indexOf(s.charAt(j))
-//         if (index !== -1) {
-//             i = i + index + 1
-//         }
-//         length = Math.max(length, j - i + 1)
-//     }
-//     return length
-// }
+const maxLength = (s) => {
+    let index = 0, length = 0
+    for (let i = 0, j = 0; j < s.length; j++) {
+        index = s.substring(i, j).indexOf(s.charAt(j))
+        if (index !== -1) {
+            i = i + index + 1
+        }
+        length = Math.max(length, j - i + 1)
+    }
+    return length
+}
 
 // 使用Map 维护下标
 const maxLength = (s) => {
