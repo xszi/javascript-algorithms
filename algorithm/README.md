@@ -44,6 +44,9 @@
 ### 链表
 - [数组和链表的比较](https://github.com/xszi/fe-interview/issues/43)
 - [链表知识小结](https://github.com/xszi/fe-interview/issues/44)
+- [双向链表小结](https://github.com/xszi/fe-interview/issues/46)
+- [循环链表小结](https://github.com/xszi/fe-interview/issues/47)
+- [合并两个有序链表](https://github.com/xszi/fe-interview/issues/45)
 
 ### 字符串
 
