@@ -47,6 +47,7 @@
 - [双向链表小结](https://github.com/xszi/fe-interview/issues/46)
 - [循环链表小结](https://github.com/xszi/fe-interview/issues/47)
 - [合并两个有序链表](https://github.com/xszi/fe-interview/issues/45)
+- [判断一个单链表是否有环](https://github.com/xszi/fe-interview/issues/48)
 
 ### 字符串
 
