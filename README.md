@@ -48,7 +48,9 @@
 - [循环链表小结](https://github.com/xszi/fe-interview/issues/47)
 - [合并两个有序链表](https://github.com/xszi/fe-interview/issues/45)
 - [判断一个单链表是否有环](https://github.com/xszi/fe-interview/issues/48)
-
+- [反转链表](https://github.com/xszi/fe-interview/issues/49)
+- [删除链表倒数第 n 个结点](https://github.com/xszi/fe-interview/issues/50)
+- [求链表的中间结点](https://github.com/xszi/fe-interview/issues/51)
 ### 字符串
 
 ### 栈
