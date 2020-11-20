@@ -36,6 +36,7 @@
 - [合并两个有序数组](https://github.com/xszi/fe-interview/issues/22)
 - [两数之和](https://github.com/xszi/fe-interview/issues/23)
 - [三数之和](https://github.com/xszi/fe-interview/issues/24)
+- [有效三角形的个数](https://github.com/xszi/fe-interview/issues/53)
 - [数组扁平化·去重·排序](https://github.com/xszi/fe-interview/issues/25)
 - [数组交集](https://github.com/xszi/fe-interview/issues/26)
 - [LRU 缓存机制](https://github.com/xszi/fe-interview/issues/27)
@@ -51,6 +52,7 @@
 - [反转链表](https://github.com/xszi/fe-interview/issues/49)
 - [删除链表倒数第 n 个结点](https://github.com/xszi/fe-interview/issues/50)
 - [求链表的中间结点](https://github.com/xszi/fe-interview/issues/51)
+- [编写一个程序，找到两个单链表相交的起始节点](https://github.com/xszi/fe-interview/issues/52)
 ### 字符串
 
 ### 栈
