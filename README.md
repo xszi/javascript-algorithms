@@ -53,6 +53,8 @@
 - [删除链表倒数第 n 个结点](https://github.com/xszi/fe-interview/issues/50)
 - [求链表的中间结点](https://github.com/xszi/fe-interview/issues/51)
 - [编写一个程序，找到两个单链表相交的起始节点](https://github.com/xszi/fe-interview/issues/52)
+- [链表求和](https://github.com/xszi/fe-interview/issues/54)
+- [接雨水问题](https://github.com/xszi/fe-interview/issues/55)
 ### 字符串
 
 ### 栈
