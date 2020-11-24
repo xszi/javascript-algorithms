@@ -25,8 +25,8 @@
     | 2020.10.19 ~ 2020.10.31 | 数组 |
     | 2020.11.01 ~ 2020.11.5 | 栈 |
     | 2020.11.6 ~ 2020.11.10 | 队列 |
-    | 2020.11.11 ~ 2020.11.20 | 链表 |
-    | / / | / / | 
+    | 2020.11.11 ~ 2020.11.24 | 链表 |
+    | 2020.11.25 ~ 2020.11.30 | 字符串 | 
     | / / | / / |
     | / / | / / |
 
@@ -56,7 +56,8 @@
 - [链表求和](https://github.com/xszi/fe-interview/issues/54)
 - [接雨水问题](https://github.com/xszi/fe-interview/issues/55)
 ### 字符串
-
+- [翻转字符串里的单词](https://github.com/xszi/fe-interview/issues/56)
+- [最长公共前缀（LCP）](https://github.com/xszi/fe-interview/issues/57)
 ### 栈
 - [栈知识小结](https://github.com/xszi/fe-interview/issues/29)
 - [最小栈（包含getMin函数的栈）](https://github.com/xszi/fe-interview/issues/30)
