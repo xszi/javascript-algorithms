@@ -58,7 +58,11 @@ const trap = function (height) {
     return sum
 };
 
-// 双指针法 ---没搞定
+// 双指针法
+// 1.分别设定左右两个指针，按照一定条件往中间移动
+// 2.如果左边的指针所在高度小于右边，则左指针向右移动，否则右指针向左移动
+// 3.当左右两个指针所在的高度不为零，左右指针之间有某个位置的高度小于左右指针所在位置的最小值，那这个位置必然可以储水
+// 4.计算完当前位置储水后，更新左或右指针的位置，
 const trap = function (height) {
     if (height.length < 3) { return 0; }
     let left = 0, length = height.length,
