@@ -40,7 +40,7 @@ const longestSubstring = (str) => {
     for(let i = 0, j = 0; j < str.length; j++) {
         if (map.has(str[j])) {
             // i = map.get(str[j]) + 1
-            i = Math.max(map.get(str[j]) + 1, i) // 为什么要取最大值？
+            i = Math.max(map.get(str[j]) + 1, i) // 比较的意义，为什么要取最大值？
         }
         maxLength = Math.max(maxLength, j - i + 1)
         map.set(str[j], j)
