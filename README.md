@@ -81,9 +81,11 @@
 - [集合Set知识小结](https://github.com/xszi/fe-interview/issues/58)
 - [字典和散列表知识小结](https://github.com/xszi/javascript-algorithms/issues/63)
 - [散列表的冲突解决](https://github.com/xszi/fe-interview/issues/64)
-- [两数之和](https://github.com/xszi/fe-interview/issues/65)
-- [第一个只出现一次的字符](https://github.com/xszi/fe-interview/issues/66)
-- [给定两个数组，编写一个函数来计算它们的交集](https://github.com/xszi/fe-interview/issues/67)
+- [给定两个数组，编写一个函数来计算它们的交集](https://github.com/xszi/fe-interview/issues/65)
+- [两数之和](https://github.com/xszi/fe-interview/issues/66)
+- [三数之和](https://github.com/xszi/fe-interview/issues/67)
+- [常数时间插入、删除和获取随机元素](https://github.com/xszi/fe-interview/issues/68)
+- [第一个只出现一次的字符](https://github.com/xszi/fe-interview/issues/69)
 
 ### 堆
 
