@@ -96,8 +96,6 @@
 - [常数时间插入、删除和获取随机元素](https://github.com/xszi/fe-interview/issues/68)
 - [第一个只出现一次的字符](https://github.com/xszi/fe-interview/issues/69)
 
-### 堆
-
 ### 二叉树
 
 - [树和二叉树知识小结](https://github.com/xszi/fe-interview/issues/7)
@@ -118,9 +116,13 @@
 - [给定一个二叉树, 找到该树中两个指定节点间的最短距离](https://github.com/xszi/fe-interview/issues/19)
 - [二叉搜索树中第K小的元素](https://github.com/xszi/fe-interview/issues/20)
 
+### 堆
+
 ### 图
 
 - [图相关知识小结](https://github.com/xszi/javascript-algorithms/issues/70)
+- [找到小镇的法官](https://github.com/xszi/javascript-algorithms/issues/71)
+- [课程表问题](https://github.com/xszi/javascript-algorithms/issues/72)
 
 ### 排序算法
 
