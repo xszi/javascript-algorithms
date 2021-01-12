@@ -123,6 +123,8 @@
 - [图相关知识小结](https://github.com/xszi/javascript-algorithms/issues/70)
 - [找到小镇的法官](https://github.com/xszi/javascript-algorithms/issues/71)
 - [课程表问题](https://github.com/xszi/javascript-algorithms/issues/72)
+- [旋转矩阵](https://github.com/xszi/javascript-algorithms/issues/73)
+- [螺旋矩阵 II](https://github.com/xszi/javascript-algorithms/issues/74)
 
 ### 排序算法
 
