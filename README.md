@@ -117,6 +117,8 @@
 - [二叉搜索树中第K小的元素](https://github.com/xszi/fe-interview/issues/20)
 
 ### 堆
+- [堆知识小结](https://github.com/xszi/javascript-algorithms/issues/75)
+- [最小的K个数](https://github.com/xszi/javascript-algorithms/issues/76)
 
 ### 图
 
