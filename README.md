@@ -130,6 +130,8 @@
 
 ### 排序算法
 
+- [快速排序](https://github.com/xszi/javascript-algorithms/issues/79)
+
 ### 查找算法
 
 ### 动态规划
