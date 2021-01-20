@@ -119,6 +119,9 @@
 ### 堆
 - [堆知识小结](https://github.com/xszi/javascript-algorithms/issues/75)
 - [最小的K个数](https://github.com/xszi/javascript-algorithms/issues/76)
+- [前 K 个高频元素](https://github.com/xszi/javascript-algorithms/issues/80)
+- [数组中的第K个最大元素](https://github.com/xszi/javascript-algorithms/issues/77)
+- [数据流的中位数](https://github.com/xszi/javascript-algorithms/issues/78)
 
 ### 图
 
