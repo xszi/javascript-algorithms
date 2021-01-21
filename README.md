@@ -133,8 +133,8 @@
 
 ### 排序算法
 
-- [快速排序](https://github.com/xszi/javascript-algorithms/issues/79)
-- [基数排序，计数排序和桶排序](https://github.com/xszi/javascript-algorithms/issues/81)
+- [快速排序知识小结](https://github.com/xszi/javascript-algorithms/issues/79)
+- [基数排序，计数排序和桶排序知识小结](https://github.com/xszi/javascript-algorithms/issues/81)
 
 ### 查找算法
 
