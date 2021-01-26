@@ -38,7 +38,7 @@ let buildHeap = (arr, k) => {
     }
 }
 
-// 堆化
+// 最大堆化
 let heapify = (arr, k, i) => {
     // 自上而下式堆化
     while(true) {
