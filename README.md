@@ -133,9 +133,10 @@
 
 ### 排序算法
 
-- [快速排序，算法复杂度是多少？](https://github.com/xszi/javascript-algorithms/issues/79)
-- [基数排序，计数排序和桶排序，算法复杂度是多少？](https://github.com/xszi/javascript-algorithms/issues/81)
-- [插入排序和希尔排序，算法复杂度分别是多少？](https://github.com/xszi/javascript-algorithms/issues/82)
+- [排序算法小结](https://github.com/xszi/javascript-algorithms/issues/87)
+- [快速排序，代码实现，复杂度](https://github.com/xszi/javascript-algorithms/issues/79)
+- [基数排序，计数排序和桶排序，代码实现，复杂度](https://github.com/xszi/javascript-algorithms/issues/81)
+- [插入排序和希尔排序，代码实现，复杂度](https://github.com/xszi/javascript-algorithms/issues/82)
 - [打乱数组（洗牌算法）](https://github.com/xszi/javascript-algorithms/issues/83)
 - [排序链表](https://github.com/xszi/javascript-algorithms/issues/84)
 - [扑克牌问题（反向推导题）](https://github.com/xszi/javascript-algorithms/issues/85)
