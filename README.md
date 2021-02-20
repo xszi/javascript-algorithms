@@ -144,6 +144,11 @@
 
 ### 查找算法
 
+- [简述二分查找算法与时间复杂度，并实现一个二分查找算法](https://github.com/xszi/javascript-algorithms/issues/88)
+- [在排序数组中查找元素的第一个和最后一个位置](https://github.com/xszi/javascript-algorithms/issues/89)
+- [二叉搜索树中第K小的元素](https://github.com/xszi/javascript-algorithms/issues/90)
+- [爱吃香蕉的珂珂](https://github.com/xszi/javascript-algorithms/issues/91)
+
 ### 动态规划
 
 ### 贪心算法
