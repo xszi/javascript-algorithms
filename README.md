@@ -6,6 +6,8 @@
 
 所以，2020年10月 ~ 2021年3月，这半年的时间，我决定在算法思维上训练一番。
 
+此文档结构参照了大佬[瓶子君](https://github.com/sisterAn/JavaScript-Algorithms)，在此感谢~
+
 :rainbow: **训练计划**
 
 1. 根据前辈建议，分主题模块刷题，先从二叉树开始
@@ -151,9 +153,24 @@
 
 ### 动态规划
 
+- [爬楼梯问题](https://github.com/xszi/javascript-algorithms/issues/92)
+- [使用最小花费爬楼梯](https://github.com/xszi/javascript-algorithms/issues/93)
+- [最大子序和](https://github.com/xszi/javascript-algorithms/issues/94)
+- [买卖股票的最佳时机](https://github.com/xszi/javascript-algorithms/issues/95)
+- [回文子串](https://github.com/xszi/javascript-algorithms/issues/96)
+- [最长回文子串](https://github.com/xszi/javascript-algorithms/issues/97)
+- [最小路径和](https://github.com/xszi/javascript-algorithms/issues/98)
+
 ### 贪心算法
 
+- [买卖股票的最佳时机 II](https://github.com/xszi/javascript-algorithms/issues/99)
+- [分发饼干](https://github.com/xszi/javascript-algorithms/issues/100)
+- [分发饼干](https://github.com/xszi/javascript-algorithms/issues/101)
+
 ### 回溯算法
+
+- [全排列问题](https://github.com/xszi/javascript-algorithms/issues/101)
+- [括号生成](https://github.com/xszi/javascript-algorithms/issues/102)
 
 ## JS编程题
 
