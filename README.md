@@ -165,7 +165,7 @@
 
 - [买卖股票的最佳时机 II](https://github.com/xszi/javascript-algorithms/issues/99)
 - [分发饼干](https://github.com/xszi/javascript-algorithms/issues/100)
-- [分发饼干](https://github.com/xszi/javascript-algorithms/issues/101)
+- [分割数组为连续子序列](https://github.com/xszi/javascript-algorithms/issues/101)
 
 ### 回溯算法
 
