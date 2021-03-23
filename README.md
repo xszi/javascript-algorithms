@@ -169,8 +169,8 @@
 
 ### 回溯算法
 
-- [全排列问题](https://github.com/xszi/javascript-algorithms/issues/101)
-- [括号生成](https://github.com/xszi/javascript-algorithms/issues/102)
+- [全排列问题](https://github.com/xszi/javascript-algorithms/issues/102)
+- [括号生成](https://github.com/xszi/javascript-algorithms/issues/103)
 
 ## JS编程题
 
