@@ -46,21 +46,6 @@
 - [编写一个函数计算多个数组的交集](https://github.com/xszi/fe-interview/issues/28)
 - [找出第N小的数字](https://github.com/xszi/fe-interview/issues/34)
 
-### 链表
-
-- [数组和链表的比较](https://github.com/xszi/fe-interview/issues/43)
-- [链表知识小结](https://github.com/xszi/fe-interview/issues/44)
-- [双向链表小结](https://github.com/xszi/fe-interview/issues/46)
-- [循环链表小结](https://github.com/xszi/fe-interview/issues/47)
-- [合并两个有序链表](https://github.com/xszi/fe-interview/issues/45)
-- [判断一个单链表是否有环](https://github.com/xszi/fe-interview/issues/48)
-- [反转链表](https://github.com/xszi/fe-interview/issues/49)
-- [删除链表倒数第 n 个结点](https://github.com/xszi/fe-interview/issues/50)
-- [求链表的中间结点](https://github.com/xszi/fe-interview/issues/51)
-- [编写一个程序，找到两个单链表相交的起始节点](https://github.com/xszi/fe-interview/issues/52)
-- [链表求和](https://github.com/xszi/fe-interview/issues/54)
-- [接雨水问题](https://github.com/xszi/fe-interview/issues/55)
-
 ### 字符串
 
 - [翻转字符串里的单词](https://github.com/xszi/fe-interview/issues/56)
@@ -86,6 +71,21 @@
 - [滑动窗口最大值问题](https://github.com/xszi/fe-interview/issues/40)
 - [翻转字符串里的单词](https://github.com/xszi/fe-interview/issues/41)
 - [无重复字符的最长子串](https://github.com/xszi/fe-interview/issues/42)
+
+### 链表
+
+- [数组和链表的比较](https://github.com/xszi/fe-interview/issues/43)
+- [链表知识小结](https://github.com/xszi/fe-interview/issues/44)
+- [双向链表小结](https://github.com/xszi/fe-interview/issues/46)
+- [循环链表小结](https://github.com/xszi/fe-interview/issues/47)
+- [合并两个有序链表](https://github.com/xszi/fe-interview/issues/45)
+- [判断一个单链表是否有环](https://github.com/xszi/fe-interview/issues/48)
+- [反转链表](https://github.com/xszi/fe-interview/issues/49)
+- [删除链表倒数第 n 个结点](https://github.com/xszi/fe-interview/issues/50)
+- [求链表的中间结点](https://github.com/xszi/fe-interview/issues/51)
+- [编写一个程序，找到两个单链表相交的起始节点](https://github.com/xszi/fe-interview/issues/52)
+- [链表求和](https://github.com/xszi/fe-interview/issues/54)
+- [接雨水问题](https://github.com/xszi/fe-interview/issues/55)
 
 ### 哈希表
 
