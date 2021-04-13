@@ -102,53 +102,44 @@ console.log(map.keys().next().value);
 // cache.get(3);       // 返回  3
 // cache.get(4);       // 返回  4
 
-function LRUCache (capacity){
-    this.capacity = capacity
-    this.cache = Object.create(null)
+function LRUCache(capacity) {
+    this.capacity = capacity;
+    this.cache = Object.create(null);
     this.keys = []
 }
 
 LRUCache.prototype.get = (key) => {
     if (this.cache[key]) {
-        // 调整key的位置，先把当前访问的键删掉
-        remove(this.keys, key)
-        // 把现在访问的键放在最前面
-        this.keys.push(key)
-        // 返回值
+        remove(this.keys, key);
+        this.keys.push(key);
         return this.cache[key]
     }
-    return -1  
+    return -1;
 }
 
 LRUCache.prototype.put = (key, value) => {
     if (this.cache[key]) {
-        // 调整key的位置，先把当前访问的键删掉
         remove(this.keys, key)
-        // 把现在访问的键放在最前面
         this.keys.push(key)
-        // 更新该键的值
         this.cache[key] = value
     } else {
-        // 不存在需要加入
         this.keys.push(key)
         this.cache[key] = value
-        // 检查是否超过容量，超过删除访问间隔最长的键值
         if (this.keys.length > this.capacity) {
-            removeCache(this.cache, this.keys, this.keys[0])
+            // 删除最长时间没访问的
+            removeCache(this.cache, this.keys, this.key[0])
         }
     }
 }
 
-function remove (keys, key) {
-    if (keys.length) {
-        let index = keys.indexOf(key)
-        if (index > -1) {
-            keys.splice(index, 1)
-        }
+function remove(keys, key) {
+    let index = keys.indexOf(key);
+    if (index !== -1) {
+        keys.splice(index, 1);
     }
 }
 
-function removeCache(cache, keys, key) {
-    cache[key] = null
-    remove(keys, key)
+function removeCache (cache, keys, key) {
+    cache[key] = null;
+    remove(keys, key);
 }
