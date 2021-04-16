@@ -5,7 +5,7 @@
 // 公共指针法
 // const longestCommonPrefix = (arr) => {
 //     if (!arr || !arr.length) return '';
-    
+
 //     let currentIndex = 0
 
 //     while (true) {
@@ -74,8 +74,8 @@ const longestCommonPrefix = (arr) => {
     if (length === 1) return arr[0]
 
     const mid = Math.floor(length / 2),
-          left = arr.slice(0, mid),
-          right = arr.slice(mid, length)
+        left = arr.slice(0, mid),
+        right = arr.slice(mid, length)
 
     return getCommonPrefixOfTwo(longestCommonPrefix(left), longestCommonPrefix(right))
 
@@ -89,5 +89,83 @@ const getCommonPrefixOfTwo = (left, right) => {
     return left.substring(0, i)
 }
 
-const arr = ["flower","flow","flight"]
+const arr = ["flower", "flow", "flight"]
 console.log(longestCommonPrefix(arr));
+
+// 公共指针法
+const longestCommonPrefix = (arr) => {
+    if (!arr || !arr.length) return ''
+    let currentIndex = 0
+    while (true) {
+        // 取数组第一个元素的第一个字符作为比较参照
+        let refer = arr[0][currentIndex]
+        // 是否全部匹配
+        const currentAllMatched = arr.reduce((prev, str) => {
+            return prev && str.charAt(currentIndex) === refer
+        })
+
+        if (currentAllMatched) {
+            currentIndex++
+        } else {
+            break
+        }
+    }
+    return arr[0].substring(0, currentIndex)
+}
+
+// 逐个比较
+const longestCommonPrefix = (arr) => {
+    if (!arr || !arr.length) return ''
+
+    let prev = arr[0]
+    for (let i = 0; i < arr.length; i++) {
+        let j = 0
+        for (; j < prev.length && j < arr[i].length; j++) {
+            if (prev.charAt(j) !== arr[i].charAt(j)) break
+        }
+        prev = prev.substring(0, j)
+        if (prev === '') return ''
+    }
+
+    return prev
+}
+
+// 仅需最大、最小字符串的最长公共前缀
+const longestCommonPrefix = (arr) => {
+    if (!arr || !arr.length) return ''
+    let max = 0,
+        min = 0
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > arr[max]) max = i
+        if (arr[i] < arr[min]) min = i
+    }
+
+    for (let j = 0; j < arr[max].length; j++) {
+        if (arr[min].charAt(j) !== arr[max].charAt(j)) {
+            return arr[max].substring(0, j)
+        }
+    }
+
+    return result
+}
+
+// 分而治之，递归思想
+const longestCommonPrefix = (arr) => {
+    if (!arr || !arr.length) return ''
+    let length = arr.length
+    if (length === 1) return arr[0]
+
+    const mid = Math.floor(length / 2),
+        left = arr.slice(0, mid),
+        right = arr.slice(mid, length)
+    return getCommonPrefixOfTwo(longestCommonPrefix(left), longestCommonPrefix(right));
+}
+
+const getCommonPrefixOfTwo = (left, right) => {
+    let j = 0
+    for (; j < right.length && i < left.length; j++) {
+        if (left.charAt(j) !== right.charAt(j)) {
+            return left.substring(0, j)
+        }
+    }
+}

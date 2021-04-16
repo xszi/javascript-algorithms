@@ -40,8 +40,8 @@ const findPivotIndex = (arr, left, right) => {
         swap(arr, i, j)
     }
     //基准归位
-    // arr[left] = arr[i];
-    // arr[i] = pivot;
+    arr[left] = arr[i];
+    arr[i] = pivot;
     return i
 }
 
