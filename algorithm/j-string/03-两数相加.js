@@ -20,19 +20,28 @@
 //     return result.join('')
 // }
 
-var addStrings = function(num1, num2) {
-    let a = num1.length, b = num2.length, result = '', tmp = 0
-    while(a || b) {
-        a ? tmp += +num1[--a] : ''
-        b ? tmp += +num2[--b] : ''
-        
-        result = tmp % 10 + result
-        if(tmp > 9) tmp = 1
-        else tmp = 0
-    }
-    if (tmp) result = 1 + result
-    return result
-};
-const s1 = '99', s2 = '2255'
+// 给定两个字符串形式的非负整数 num1 和 num2 ，计算它们的和。
 
-console.log(addStrings(s1, s2));
+// 例如：
+
+// "111" + ”2222“ = ”2333“
+//  111
+// 2222
+// 2333
+const twoStringPlus = (str1, str2) => {
+    let len1 = str1.length, len2 = str2.length;
+    let temp = 0, result = ''
+    while(len1 || len2) {
+        len1 ? temp += +str1.charAt(--len1) : ''
+        len2 ? temp += +str2.charAt(--len2) : ''
+
+        result = temp % 10 + result
+        if (temp > 9) temp = 1
+        else temp = 0
+    }
+    return result
+}
+
+const str1 = '111', str2 = '2222'
+
+console.log(twoStringPlus(str1, str2))
