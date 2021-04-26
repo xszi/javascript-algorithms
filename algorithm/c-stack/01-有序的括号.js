@@ -1,28 +1,29 @@
-// const validBrackets =  (str) => {
-//     const map = {
-//         '[': ']',
-//         '{': '}',
-//         '(': ')'
-//     }
-//     const stack = []
-//     for (let i = 0; i< str.length; i++) {
-//         if(map[str[i]]) {
-//             stack.push(str[i])
-//         } else if(map[stack.pop()] !== str[i]) {
-//             return false
-//         }
-//     }
-//     return true
-// }
 
-// const str = "()"
-// console.log(validBrackets(str));
+const validBrackets = (str) => {
+    let map = {
+        '[': ']',
+        '(': ')',
+        '{': '}'
+    }
+    let stack = []
+    for (let i = 0; i < str.length; i++) {
+        if (map[str.charAt(i)]) {
+            stack.push(str.charAt(i))
+        } else if (map[stack.pop()] !== str.charAt(i)) {
+            return false
+        }
+    }
+    return true
+}
 
-// const str = "()[]{}"
-// console.log(validBrackets(str));
+const str1 = "()"
+console.log(validBrackets(str1));
 
-// const str = "([)]"
-// console.log(validBrackets(str));
+const str2 = "()[]{}"
+console.log(validBrackets(str2));
 
-// const str = "{[]}"
-// console.log(validBrackets(str));
+const str3 = "([)]"
+console.log(validBrackets(str3));
+
+const str4 = "{[]}"
+console.log(validBrackets(str4));
