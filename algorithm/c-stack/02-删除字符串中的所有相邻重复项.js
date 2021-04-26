@@ -66,6 +66,7 @@ const removeKDuplicates = (s, k) => {
             stack.push(prev + s[i])
         }
     }
+    // join会把最前面的undefined去掉
     return stack.join('')
 }
 

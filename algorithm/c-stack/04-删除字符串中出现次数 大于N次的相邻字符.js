@@ -32,7 +32,7 @@ const removeDuplicatesTwoMore = (s) => {
     }
     return stack.join('')
 }
-
+// 输入："abbbaca"
 function removeDuplicatesTwoMore (s) {
     let stack = [] // Space: O(n)
     let i = 0
@@ -55,3 +55,24 @@ function removeDuplicatesTwoMore (s) {
     return stack.join('')
 }
 console.log(removeDuplicatesTwoMore(s))
+
+// 输入："abbbaca"
+// 输出："ca"
+// 解释："abbbaca" => "aaca"=>"ca"
+
+const removeDuplicatesTwoMore = (s) => {
+    let stack = []
+    let i = 0
+    let top, next
+    while (i < s.length) {
+        top = stack[stack.length - 1]
+        if (top === s[i]) {
+            stack.pop()
+            while (top !==s[i]) i += 1
+        } else {
+            stack.push(s[i])
+            i += 1
+        }
+    }
+    return stack.join('')
+}
