@@ -1,7 +1,7 @@
-// 输入："abbbaca"
-// 输出："ca"
-// 解释："abbbaca" => "aaca"=>"ca"
-const s = 'abbaca'
+// // 输入："abbbaca"
+// // 输出："ca"
+// // 解释："abbbaca" => "aaca"=>"ca"
+// const s = 'abbaca'
 const removeDuplicatesTwoMore = (s) => {
     let stack = []
     for (let c of s) {
@@ -32,43 +32,66 @@ const removeDuplicatesTwoMore = (s) => {
     }
     return stack.join('')
 }
-// 输入："abbbaca"
-function removeDuplicatesTwoMore (s) {
-    let stack = [] // Space: O(n)
-    let i = 0
-    let top
-    let next
-    while (i < s.length) { // Time: O(n)
-        top = stack[stack.length - 1]
-        next = s[i]
-        if (next === top) {
-            // 如果相等，则有连续相同的字符
-            // 需要把上一个出栈
-            // 指针往后移，直到字符与该字符不相等
-            stack.pop()
-            while (s[i] === top ) i += 1
-        } else {
-            stack.push(s[i])
-            i += 1
-        }
-    }
-    return stack.join('')
-}
-console.log(removeDuplicatesTwoMore(s))
+// // 输入："abbbaca"
+// function removeDuplicatesTwoMore (s) {
+//     let stack = [] // Space: O(n)
+//     let i = 0
+//     let top
+//     let next
+//     while (i < s.length) { // Time: O(n)
+//         top = stack[stack.length - 1]
+//         next = s[i]
+//         if (next === top) {
+//             // 如果相等，则有连续相同的字符
+//             // 需要把上一个出栈
+//             // 指针往后移，直到字符与该字符不相等
+//             stack.pop()
+//             while (s[i] === top ) i += 1
+//         } else {
+//             stack.push(s[i])
+//             i += 1
+//         }
+//     }
+//     return stack.join('')
+// }
+// console.log(removeDuplicatesTwoMore(s))
 
 // 输入："abbbaca"
 // 输出："ca"
 // 解释："abbbaca" => "aaca"=>"ca"
 
-const removeDuplicatesTwoMore = (s) => {
-    let stack = []
+// const removeDuplicatesTwoMore = (s) => {
+//     let stack = []
+//     let i = 0
+//     let top, next
+//     while (i < s.length) {
+//         top = stack[stack.length - 1]
+//         if (top === s[i]) {
+//             stack.pop()
+//             while (top !==s[i]) i += 1
+//         } else {
+//             stack.push(s[i])
+//             i += 1
+//         }
+//     }
+//     return stack.join('')
+// }
+
+
+
+// 输出："ca"
+// 解释："abbbaca" => "aaca"=>"ca"
+
+const removeKDuplicates = (s) => {
+    let len = s.length
     let i = 0
-    let top, next
-    while (i < s.length) {
+    let top, stack = []
+
+    while (i < len) {
         top = stack[stack.length - 1]
         if (top === s[i]) {
-            stack.pop()
-            while (top !==s[i]) i += 1
+            let prev = stack.pop()
+            while(s[i] === prev) i += 1
         } else {
             stack.push(s[i])
             i += 1
@@ -76,3 +99,6 @@ const removeDuplicatesTwoMore = (s) => {
     }
     return stack.join('')
 }
+
+const s = 'abbbaca'
+console.log(removeKDuplicates(s));
