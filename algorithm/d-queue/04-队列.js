@@ -21,7 +21,6 @@ let Queue = (function () {
 })()
 
 // 优先队列
-
 function PriorityQueue() {
     let items = []
     function QueueElement (element, priority) {
